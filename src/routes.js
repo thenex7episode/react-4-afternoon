@@ -8,7 +8,7 @@ import Student from './components/Student/Student'
 export default (
     <div>
      <Route exact path='/' component = {Home}/>
-    <Route path = '/about' componenet = {About}/>
+    <Route path = '/about' component = {About}/>
     <Route path = '/classlist/:class' component = {ClassList}/>
     <Route path = '/student/:id' component = {Student}/>
      </div>
